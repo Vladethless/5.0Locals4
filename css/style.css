@@ -969,7 +969,7 @@ img{
 	background-color:#e5a62c;
 }
 
-.sec-title h4{
+.sec-title h1{
 	color:#242424;
 	font-size:50px;
 	line-height:1.2em;
@@ -2161,7 +2161,7 @@ img{
 	padding-left:65px;
 }
 
-.testimonial-block .content-column .inner h2{
+.testimonial-block .content-column .inner h3{
 	position:relative;
 	font-size:47px;
 	color:#242424;

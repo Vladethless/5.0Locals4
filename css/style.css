@@ -946,7 +946,12 @@ img{
 	line-height:1em;
 	font-weight:700;
 }
-
+.sec-title h3 {
+	color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 .sec-title .p_h3{
 	position:relative;
 	color:#e5a62c;

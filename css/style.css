@@ -2166,7 +2166,7 @@ img{
 	padding-left:65px;
 }
 
-.testimonial-block .content-column .inner h3{
+.testimonial-block .content-column .inner h2{
 	position:relative;
 	font-size:47px;
 	color:#242424;
@@ -2586,13 +2586,13 @@ img{
 	font-size:17px;
 	margin-bottom:12px;
 }
-.main-footer .contact-widget h6{
+.main-footer .contact-widget h4{
 	color:#ffffff;
 	font-size:20px;
 	margin-bottom:12px;
 	font-weight: 600;
 }
-.main-footer .link-widget h6{
+.main-footer .link-widget h4{
 	color:#ffffff;
 	font-size:20px;
 	margin-bottom:12px;
@@ -2601,6 +2601,8 @@ img{
 .main-footer .contact-widget ul li span{
 	color:#ffffff;
 	margin-right:15px;
+	color:#ffffff;
+	font-size:15px;
 }
 
 .main-footer .contact-widget .social-icon-one{

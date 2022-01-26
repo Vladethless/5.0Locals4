@@ -1118,6 +1118,7 @@ img{
 	font-family: 'Montserrat', sans-serif;
     margin: 0px;
     line-height: 1.4em;
+	text-align: center;
 }
 
 .main-slider h3{
@@ -1134,6 +1135,7 @@ img{
 	color:#ffffff;
 	text-transform:uppercase;
 	font-family: 'proxima_nova_rgregular';
+	padding-top: 40px;
 }
 
 .main-slider .btn-style-one{
@@ -1151,7 +1153,7 @@ img{
 }
 
 .main-slider .tp-dottedoverlay{
-	background-color:rgba(20,18,18,0.50) !important;
+	background-color:rgba(0, 0, 0, 0.5) !important;
 }
 
 .main-slider .tp-bullets.preview4{
@@ -1396,10 +1398,8 @@ img{
 	color:#242424;
 	font-size:15px;
 	padding-bottom:4px;
-	margin-top:40px;
 	display:inline-block;
 	text-transform:uppercase;
-	border-bottom:2px solid #242424;
 	font-family: 'Montserrat', sans-serif;
 	transition:all 0.3s ease;
 	-moz-transition:all 0.3s ease;
@@ -2329,13 +2329,14 @@ img{
 	line-height:1.8em;
 	margin-bottom:30px;
 }
-
-.news-block .inner-box .lower-content .text p{
-	color:#959595;
-	font-size:17px;
-	margin-bottom:20px;
+.lower-content p{
+	position: relative;
+    font-size: 17px;
+    font-weight: 400;
+    color: #959595;
+    line-height: 1.9em;
+    margin-bottom: 20px;
 }
-
 .news-block .inner-box .lower-content .text blockquote{
 	color:#242424;
 	font-size:20px;
@@ -2904,6 +2905,41 @@ img{
 	height:1px;
 	margin-top:-1px;
 	background-color:#e5a62c;
+}
+.lower-content .text-2{
+	position: relative;
+    font-size: 17px;
+    font-weight: 400;
+    color: #959595;
+    line-height: 1.9em;
+    margin-bottom: 20px;
+    padding-left: 100px;
+}
+.lower-content .text-2 .title{
+	position: relative;
+    font-size: 25px;
+	font-weight: 600;
+	color: #242424;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}
+.lower-content .text-2 .dot{
+	position: relative;
+    font-size: 17px;
+    font-weight: 400;
+    color: #959595;
+    line-height: 1.9em;
+    margin-bottom: 20px;
+}
+.lower-content .text-2 .dot:before{
+	position: absolute;
+    content: '';
+    left: -100px;
+    top: 14px;
+    width: 80px;
+    height: 1px;
+    margin-top: -1px;
+    background-color: #e5a62c;
 }
 
 .service-quality-section .content-column .inner-box .text p{
@@ -3772,7 +3808,7 @@ img{
 	color:#ffffff;
 }
 
-.address-section .address-column .contact-info li h4{
+.address-section .address-column .contact-info li h2{
 	font-weight:700;
 	text-transform:uppercase;
 	margin-bottom:3px;

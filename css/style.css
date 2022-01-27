@@ -2915,9 +2915,9 @@ img{
     margin-bottom: 20px;
     padding-left: 100px;
 }
-.lower-content .text-2 .title{
+.lower-content .text-2 h3{
 	position: relative;
-    font-size: 25px;
+    font-size: 20px;
 	font-weight: 600;
 	color: #242424;
     line-height: 1.5em;
@@ -3288,6 +3288,10 @@ img{
 }
 
 .blog-section.blog-single .news-block .lower-content h3{
+	font-size:30px;
+	color:#242424;
+}
+.blog-section.blog-single .news-block .lower-content .text-2 h3{
 	font-size:30px;
 	color:#242424;
 }

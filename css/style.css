@@ -2569,8 +2569,8 @@ img{
 
 .main-footer .link-widget ul li a{
 	position:relative;
-	font-size:17px;
-	color:#9b9b9b;
+	font-size:18px;
+	color:#ffffff;
 	transition:all 0.3s ease;
 	-moz-transition:all 0.3s ease;
 	-webkit-transition:all 0.3s ease;
@@ -2583,8 +2583,8 @@ img{
 }
 
 .main-footer .contact-widget ul li{
-	color:#9b9b9b;
-	font-size:17px;
+	color:#ffffff;
+	font-size:18px;
 	margin-bottom:12px;
 }
 .main-footer .contact-widget h4{
@@ -3039,8 +3039,8 @@ img{
 
 .service-block-two .inner-box .text{
 	position:relative;
-	font-size:17px;
-	color:#959595;
+	font-size:18px;
+	color:#f0eeee;
 	line-height:2em;
 	margin-top:25px;
 }
@@ -3291,9 +3291,10 @@ img{
 	font-size:30px;
 	color:#242424;
 }
-.blog-section.blog-single .news-block .lower-content .text-2 h3{
+.blog-section.blog-single .news-block .lower-content .text-2 h4{
 	font-size:30px;
 	color:#242424;
+	font-weight: 700;
 }
 
 .blog-section.blog-single .news-block .lower-content h2{
